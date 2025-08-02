@@ -1,0 +1,27 @@
+
+        Frequently Asked Questions
+
+        Q: How do I reset my password?
+        A: To reset your password, go to the login page and click "Forgot Password". Enter your email address and follow the instructions sent to your email.
+
+        Q: How do I update my profile information?
+        A: Log into your account and go to Settings > Profile. You can update your name, email, and other information there.
+
+        Q: What payment methods do you accept?
+        A: We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers.
+
+        Q: How can I cancel my subscription?
+        A: You can cancel your subscription at any time by going to Settings > Billing and clicking "Cancel Subscription".
+
+        Q: Is my data secure?
+        A: Yes, we use industry-standard encryption and security measures to protect your data. All data is encrypted in transit and at rest.
+
+        Q: How do I contact customer support?
+        A: You can reach our support team at support@company.com or through the chat widget on our website.
+
+        Q: What are your business hours?
+        A: Our customer support is available Monday through Friday, 9 AM to 6 PM EST.
+
+        Q: How do I export my data?
+        A: Go to Settings > Data Export and select the data you want to export. We'll send a download link to your email.
+        
