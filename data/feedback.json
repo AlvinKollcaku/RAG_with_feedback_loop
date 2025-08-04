@@ -1,37 +1,632 @@
 [
   {
-    "query_id": "6d7f2c91-c063-4425-ab23-f5ac084fca12",
+    "query_id": "68023203-1ee5-4833-9138-eb535da91a76",
+    "query": "What is python?",
     "rating": 5,
     "comment": "",
-    "timestamp": "2025-07-31T04:54:24.593725",
-    "sources": []
+    "timestamp": "2025-08-04T05:02:02.502543",
+    "sources": [
+      {
+        "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+        "cross_encoder_score": 1,
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        },
+        "score": 0.876
+      },
+      {
+        "content": "chapter eight \u201c whyispythoninstalledonmycomputer? \u201d faq 8. 1whatispython? python is a programming language. it \u2019 s used for many different applications. it \u2019 s used in some high schools and collegesas...",
+        "cross_encoder_score": 0.997,
+        "id": "285279fd-9a8a-4337-a8b3-af488e17683e",
+        "metadata": {
+          "chunk_id": "226_0",
+          "page": 78,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.198013"
+        },
+        "score": 0.846
+      },
+      {
+        "content": "python \u2019 s flying circus \u201d, a bbc comedy series from the 1970s. van rossum thought he needed a name that was short, unique, andslightlymysterious, sohedecidedtocallthelanguagepython. 1. 1. 17doihaveto...",
+        "cross_encoder_score": 0.818,
+        "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+        "metadata": {
+          "chunk_id": "42_1",
+          "page": 11,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.706383"
+        },
+        "score": 0.729
+      }
+    ]
   },
   {
-    "query_id": "be47679b-afc2-4046-80be-45959c3bb31b",
-    "rating": 5,
-    "comment": "",
-    "timestamp": "2025-07-31T04:55:55.475923",
-    "sources": []
-  },
-  {
-    "query_id": "e7e9855f-6c66-4286-84e2-65768d5ff9c9",
+    "query_id": "d28661da-2c9c-4fb8-b846-816ab88f0b2e",
+    "query": "What is a method?",
     "rating": 4,
     "comment": "",
-    "timestamp": "2025-08-03T16:16:46.736186",
-    "sources": []
+    "timestamp": "2025-08-04T05:02:48.306282",
+    "sources": [
+      {
+        "content": "##f. meth ( ) makes it absolutely clear that an instance variable or method is used even if you don \u2019 t know the class definition by heart. in c + +, you can sort of tell by the lack of a local variab...",
+        "cross_encoder_score": 0.122,
+        "id": "d0d7669f-890a-44e6-aca5-fc950af422ad",
+        "metadata": {
+          "chunk_id": "139_1",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.207
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0.073,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.178
+      },
+      {
+        "content": "magicmethod aninformalsynonymfor special method. mapping a container object that supports arbitrary key lookups and implements the methods specified in the collections. abc. mapping orcollections. abc...",
+        "cross_encoder_score": 0.07,
+        "id": "688d6083-0fc8-4fe2-8501-4d19f55c4ae1",
+        "metadata": {
+          "chunk_id": "266_0",
+          "page": 89,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.325020"
+        },
+        "score": 0.177
+      }
+    ]
   },
   {
-    "query_id": "7bebe869-e927-497e-aeec-aba6a64ccc69",
-    "rating": 5,
+    "query_id": "eaf15e3f-a488-4611-bbe2-6fd0874d86ff",
+    "query": "What is self?",
+    "rating": 4,
     "comment": "",
-    "timestamp": "2025-08-03T23:16:54.718320",
-    "sources": []
+    "timestamp": "2025-08-04T05:03:05.939399",
+    "sources": [
+      {
+        "content": "\u2018 self \u2019 be used explicitly in method definitions and calls?. 2. 6. 4howdoicheckifanobjectisaninstanceofagivenclassorofasubclass ofit? use the built - in function isinstance ( obj, cls ). you can chec...",
+        "cross_encoder_score": 0.55,
+        "id": "586948d5-98ed-472c-bad5-6e935c7d16d5",
+        "metadata": {
+          "chunk_id": "106_1",
+          "page": 34,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.897996"
+        },
+        "score": 0.496
+      },
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0.019,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.114
+      },
+      {
+        "content": "pythonfrequentlyaskedquestions, release3. 13. 3 ( continuedfrompreviouspage ) value = self [ key ] del self [ key ] return value ifdefault is _ sentinel : raise keyerror ( key ) return default 3 ) con...",
+        "cross_encoder_score": 0.046,
+        "id": "711fb584-8191-4dd0-8b9e-8e9b5152400d",
+        "metadata": {
+          "chunk_id": "122_0",
+          "page": 40,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.942858"
+        },
+        "score": 0.095
+      }
+    ]
   },
   {
-    "query_id": "f262f8a5-be90-479e-8922-1cad6ff54b94",
+    "query_id": "b85400f8-0a94-4b2f-a9b1-a3c37a2b6adb",
+    "query": "What is delegation?",
+    "rating": 4,
+    "comment": "",
+    "timestamp": "2025-08-04T05:05:14.510000",
+    "sources": [
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.217
+      },
+      {
+        "content": "pythonfrequentlyaskedquestions, release3. 13. 3 def search ( obj ) : ifisinstance ( obj, mailbox ) :... # code to search a mailbox elif isinstance ( obj, document ) :... # code to search a document el...",
+        "cross_encoder_score": 0.015,
+        "id": "25cf4f73-eeee-494f-9742-1b812b847164",
+        "metadata": {
+          "chunk_id": "109_0",
+          "page": 35,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.904007"
+        },
+        "score": 0.094
+      },
+      {
+        "content": "4. 1. 6whydon \u2019 tmysignalhandlerswork? themostcommonproblemisthatthesignalhandlerisdeclaredwiththewrongargumentlist. itiscalledas handler ( signum, frame ) soitshouldbedeclaredwithtwoparameters : def ...",
+        "cross_encoder_score": 0,
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.094
+      }
+    ]
+  },
+  {
+    "query_id": "83bd4737-22cf-49d6-8f21-ce2b96f0d1ff",
+    "query": "How to concatenate strings?",
     "rating": 5,
     "comment": "",
-    "timestamp": "2025-08-03T23:35:14.798375",
-    "sources": []
+    "timestamp": "2025-08-04T08:33:43.712159",
+    "sources": [
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0.004,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.31
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.287
+      },
+      {
+        "content": "thereforeconcatenatingmanystringstogetherisinefficientaseachconcate - nationcreatesanewobject. inthegeneralcase, thetotalruntimecostisquadraticinthetotalstringlength. toaccumulatemany strobjects, ther...",
+        "cross_encoder_score": 0.006,
+        "id": "0bd38f25-e9b1-40d8-915f-8d2cebfbfc9c",
+        "metadata": {
+          "chunk_id": "92_1",
+          "page": 29,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.850773"
+        },
+        "score": 0.188
+      }
+    ]
+  },
+  {
+    "query_id": "3838dd1e-cfce-44d4-8c97-3fab3c5511d0",
+    "query": "UNIX",
+    "rating": 1,
+    "comment": "",
+    "timestamp": "2025-08-04T08:38:09.036438",
+    "sources": [
+      {
+        "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+        "cross_encoder_score": 0.002,
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        },
+        "score": 0.315
+      },
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0.001,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.305
+      },
+      {
+        "content": "2. 2. 11 howdoyoumakeahigherorderfunctioninpython?................... 14 2. 2. 12 howdoicopyanobjectinpython?............................. 15 2. 2. 13 howcanifindthemethodsorattributesofanobject?........",
+        "cross_encoder_score": 0,
+        "id": "026ff10c-5903-4aa7-a959-b426e9a3fbcb",
+        "metadata": {
+          "chunk_id": "6_0",
+          "page": 3,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.592595"
+        },
+        "score": 0.161
+      }
+    ]
+  },
+  {
+    "query_id": "ac063d3b-6cad-4ec3-a585-fdded1327059",
+    "query": "How do I make a python script executable on UNIX?",
+    "rating": 1,
+    "comment": "",
+    "timestamp": "2025-08-04T08:38:40.917040",
+    "sources": [
+      {
+        "content": "chapter eight \u201c whyispythoninstalledonmycomputer? \u201d faq 8. 1whatispython? python is a programming language. it \u2019 s used for many different applications. it \u2019 s used in some high schools and collegesas...",
+        "cross_encoder_score": 0.001,
+        "id": "285279fd-9a8a-4337-a8b3-af488e17683e",
+        "metadata": {
+          "chunk_id": "226_0",
+          "page": 78,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.198013"
+        },
+        "score": 0.357
+      },
+      {
+        "content": "pythonfrequentlyaskedquestions, release3. 13. 3 6. 6howcaniembedpythonintoawindowsapplication? embeddingthepythoninterpreterinawindowsappcanbesummarizedasfollows : 1. donotbuild python into your. exe ...",
+        "cross_encoder_score": 0.225,
+        "id": "6bd643f3-9a2b-4b0a-8add-db382b293593",
+        "metadata": {
+          "chunk_id": "217_0",
+          "page": 74,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.182029"
+        },
+        "score": 0.349
+      },
+      {
+        "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+        "cross_encoder_score": 0.013,
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        },
+        "score": 0.28
+      }
+    ]
+  },
+  {
+    "query_id": "adbfbb75-df47-4aa6-b19e-bbfc448382b9",
+    "query": "How to run a python script on UNIX?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-04T08:43:33.381167",
+    "sources": [
+      {
+        "content": "pythonfrequentlyaskedquestions, release3. 13. 3 6. 6howcaniembedpythonintoawindowsapplication? embeddingthepythoninterpreterinawindowsappcanbesummarizedasfollows : 1. donotbuild python into your. exe ...",
+        "cross_encoder_score": 0.52,
+        "id": "6bd643f3-9a2b-4b0a-8add-db382b293593",
+        "metadata": {
+          "chunk_id": "217_0",
+          "page": 74,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.182029"
+        },
+        "score": 0.474
+      },
+      {
+        "content": "chapter eight \u201c whyispythoninstalledonmycomputer? \u201d faq 8. 1whatispython? python is a programming language. it \u2019 s used for many different applications. it \u2019 s used in some high schools and collegesas...",
+        "cross_encoder_score": 0.015,
+        "id": "285279fd-9a8a-4337-a8b3-af488e17683e",
+        "metadata": {
+          "chunk_id": "226_0",
+          "page": 78,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.198013"
+        },
+        "score": 0.275
+      },
+      {
+        "content": "3 ) moduleswrittenincandlinkedwiththeinterpreter ; togetalistofthese, type : import sys print ( sys. builtin _ module _ names ) 4. 1. 3howdoimakeapythonscriptexecutableonunix? youneedtodotwothings : t...",
+        "cross_encoder_score": 0.008,
+        "id": "2d0626f2-b56d-4c85-8fc0-ccbe215e2e56",
+        "metadata": {
+          "chunk_id": "172_0",
+          "page": 58,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.214
+      }
+    ]
+  },
+  {
+    "query_id": "aecc6f2a-91d2-49f6-b802-290064e4936b",
+    "query": "Explain anything about UNIX",
+    "rating": 4,
+    "comment": "",
+    "timestamp": "2025-08-04T08:44:37.433699",
+    "sources": [
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.257
+      },
+      {
+        "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+        "cross_encoder_score": 0,
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        },
+        "score": 0.227
+      },
+      {
+        "content": "2. 2. 11 howdoyoumakeahigherorderfunctioninpython?................... 14 2. 2. 12 howdoicopyanobjectinpython?............................. 15 2. 2. 13 howcanifindthemethodsorattributesofanobject?........",
+        "cross_encoder_score": 0,
+        "id": "026ff10c-5903-4aa7-a959-b426e9a3fbcb",
+        "metadata": {
+          "chunk_id": "6_0",
+          "page": 3,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.592595"
+        },
+        "score": 0.166
+      }
+    ]
+  },
+  {
+    "query_id": "451f9b7f-722d-40ce-ba14-3f12acfc791b",
+    "query": "How do I make Python executable on UNIX?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-04T08:45:35.800736",
+    "sources": [
+      {
+        "content": "pythonfrequentlyaskedquestions, release3. 13. 3 6. 6howcaniembedpythonintoawindowsapplication? embeddingthepythoninterpreterinawindowsappcanbesummarizedasfollows : 1. donotbuild python into your. exe ...",
+        "cross_encoder_score": 0.506,
+        "id": "6bd643f3-9a2b-4b0a-8add-db382b293593",
+        "metadata": {
+          "chunk_id": "217_0",
+          "page": 74,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.182029"
+        },
+        "score": 0.559
+      },
+      {
+        "content": "thatfiletypeanopencommandthatrunstheinterpreter ( d : \\ program files \\ python \\ python. exe \" % 1 \" % * ). thisisenoughtomakescriptsexecutablefromthecommandpromptas \u2018 foo. py \u2019. ifyou \u2019 dratherbeable...",
+        "cross_encoder_score": 0.37,
+        "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+        "metadata": {
+          "chunk_id": "215_0",
+          "page": 73,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.165962"
+        },
+        "score": 0.43
+      },
+      {
+        "content": "3 ) moduleswrittenincandlinkedwiththeinterpreter ; togetalistofthese, type : import sys print ( sys. builtin _ module _ names ) 4. 1. 3howdoimakeapythonscriptexecutableonunix? youneedtodotwothings : t...",
+        "cross_encoder_score": 0.004,
+        "id": "2d0626f2-b56d-4c85-8fc0-ccbe215e2e56",
+        "metadata": {
+          "chunk_id": "172_0",
+          "page": 58,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.373
+      }
+    ]
+  },
+  {
+    "query_id": "b2e97b42-787b-4701-9334-6409f9446271",
+    "query": "HOw do I make a python script executable on unix?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-04T08:56:05.629001",
+    "sources": [
+      {
+        "content": "thatfiletypeanopencommandthatrunstheinterpreter ( d : \\ program files \\ python \\ python. exe \" % 1 \" % * ). thisisenoughtomakescriptsexecutablefromthecommandpromptas \u2018 foo. py \u2019. ifyou \u2019 dratherbeable...",
+        "cross_encoder_score": 0.179,
+        "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+        "metadata": {
+          "chunk_id": "215_0",
+          "page": 73,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.165962"
+        },
+        "score": 0.411
+      },
+      {
+        "content": "3 ) moduleswrittenincandlinkedwiththeinterpreter ; togetalistofthese, type : import sys print ( sys. builtin _ module _ names ) 4. 1. 3howdoimakeapythonscriptexecutableonunix? youneedtodotwothings : t...",
+        "cross_encoder_score": 0.027,
+        "id": "2d0626f2-b56d-4c85-8fc0-ccbe215e2e56",
+        "metadata": {
+          "chunk_id": "172_0",
+          "page": 58,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.372
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.293
+      }
+    ]
+  },
+  {
+    "query_id": "d72c9b67-e73c-4d69-9841-293f71de8b1f",
+    "query": "How to make a python script exectuable on unix?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-04T09:39:11.862935",
+    "sources": [
+      {
+        "content": "thatfiletypeanopencommandthatrunstheinterpreter ( d : \\ program files \\ python \\ python. exe \" % 1 \" % * ). thisisenoughtomakescriptsexecutablefromthecommandpromptas \u2018 foo. py \u2019. ifyou \u2019 dratherbeable...",
+        "cross_encoder_score": 0.111,
+        "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+        "metadata": {
+          "chunk_id": "215_0",
+          "page": 73,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.165962"
+        },
+        "score": 0.37
+      },
+      {
+        "content": "3 ) moduleswrittenincandlinkedwiththeinterpreter ; togetalistofthese, type : import sys print ( sys. builtin _ module _ names ) 4. 1. 3howdoimakeapythonscriptexecutableonunix? youneedtodotwothings : t...",
+        "cross_encoder_score": 0.004,
+        "id": "2d0626f2-b56d-4c85-8fc0-ccbe215e2e56",
+        "metadata": {
+          "chunk_id": "172_0",
+          "page": 58,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.357
+      },
+      {
+        "content": "problem2 : swiggeneratesthefollowingcodewhengeneratingwrapperstovoidfunctions : py _ incref ( py _ none ) ; _ resultobj = py _ none ; return _ resultobj ; alas, py _ noneisamacrothatexpandstoareferenc...",
+        "cross_encoder_score": 0.043,
+        "id": "f1d38588-5451-44c2-872d-7c6f0fe42958",
+        "metadata": {
+          "chunk_id": "220_0",
+          "page": 74,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.182029"
+        },
+        "score": 0.189
+      }
+    ]
+  },
+  {
+    "query_id": "881c7455-eed1-478b-a316-4062be4307b8",
+    "query": "Why do my signal handlers not work?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-04T09:48:36.671985",
+    "sources": [
+      {
+        "content": "4. 1. 6whydon \u2019 tmysignalhandlerswork? themostcommonproblemisthatthesignalhandlerisdeclaredwiththewrongargumentlist. itiscalledas handler ( signum, frame ) soitshouldbedeclaredwithtwoparameters : def ...",
+        "cross_encoder_score": 0,
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.305
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.29
+      },
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.25
+      }
+    ]
+  },
+  {
+    "query_id": "100efb52-6aad-4fd8-be46-96b582ebc3d0",
+    "query": "What is python?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-04T10:27:53.289073",
+    "sources": [
+      {
+        "content": "chapter eight \u201c whyispythoninstalledonmycomputer? \u201d faq 8. 1whatispython? python is a programming language. it \u2019 s used for many different applications. it \u2019 s used in some high schools and collegesas...",
+        "cross_encoder_score": 0.997,
+        "id": "285279fd-9a8a-4337-a8b3-af488e17683e",
+        "metadata": {
+          "chunk_id": "226_0",
+          "page": 78,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.198013"
+        },
+        "score": 0.883
+      },
+      {
+        "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+        "cross_encoder_score": 1,
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        },
+        "score": 0.854
+      },
+      {
+        "content": "python \u2019 s flying circus \u201d, a bbc comedy series from the 1970s. van rossum thought he needed a name that was short, unique, andslightlymysterious, sohedecidedtocallthelanguagepython. 1. 1. 17doihaveto...",
+        "cross_encoder_score": 0.818,
+        "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+        "metadata": {
+          "chunk_id": "42_1",
+          "page": 11,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.706383"
+        },
+        "score": 0.841
+      }
+    ]
   }
 ]
