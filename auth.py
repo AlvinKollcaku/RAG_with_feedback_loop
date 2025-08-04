@@ -10,7 +10,6 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'dev-secret-key')
 
 
 def generate_token(username: str) -> str:
-    """Generate JWT token"""
     payload = {
         'username': username,
         'exp': datetime.utcnow() + timedelta(hours=24)
@@ -19,7 +18,6 @@ def generate_token(username: str) -> str:
 
 
 def verify_token(token: str) -> Dict[str, Any]:
-    """Verify JWT token"""
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
         return payload

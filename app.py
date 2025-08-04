@@ -56,7 +56,7 @@ def login():
     username = data.get('username')
     password = data.get('password')
 
-    # Simple auth check (in production, use proper authentication)
+    # Simple auth check for development stage
     if username == 'demo' and password == 'demo123':
         token = generate_token(username)
         return jsonify({'token': token})
@@ -69,7 +69,6 @@ def login():
 def ask_question():
     """
     Enhanced endpoint for asking questions
-    Now includes:
     - Query expansion details in response
     - Cross-encoder scores for transparency
     - Option to disable embedding adaptor
@@ -84,10 +83,8 @@ def ask_question():
 
         logger.info(f"Processing question: {question}")
 
-        # Get response from enhanced RAG system
         result = rag.query(question, use_adaptor=use_adaptor)
 
-        # Add request metadata
         result['metadata'] = {
             'timestamp': datetime.now().isoformat(),
             'use_adaptor': use_adaptor,
@@ -105,15 +102,17 @@ def ask_question():
 @require_auth
 def submit_feedback():
     """
-    Enhanced feedback endpoint
-    Now stores source information for better learning
+    Stores source information for better learning
     """
     try:
         data = request.get_json()
         query_id = data.get('query_id')
+        question = data.get('question')
         rating = data.get('rating')
         comment = data.get('comment', '')
-        sources = data.get('sources', [])  # Include which sources were helpful
+        sources = data.get('sources', [])  # The sources used for the response
+
+        print("SOURCES LENGHT FROM APP: ", len(sources))
 
         if not query_id or rating is None:
             return jsonify({'error': 'query_id and rating are required'}), 400
@@ -123,8 +122,7 @@ def submit_feedback():
 
         logger.info(f"Storing feedback for query {query_id}: rating={rating}")
 
-        # Store feedback with source information
-        rag.store_feedback(query_id, rating, comment, sources)
+        rag.store_feedback(query_id, question, rating, comment, sources)
 
         return jsonify({
             'message': 'Feedback stored successfully',
@@ -135,45 +133,6 @@ def submit_feedback():
         logger.error(f"Error storing feedback: {str(e)}")
         return jsonify({'error': 'Internal server error'}), 500
 
-
-@app.route('/stats', methods=['GET'])
-@require_auth
-def get_stats():
-    """Get enhanced statistics including model performance"""
-    try:
-        stats = rag.get_feedback_stats()
-        return jsonify(stats)
-    except Exception as e:
-        logger.error(f"Error getting stats: {str(e)}")
-        return jsonify({'error': 'Internal server error'}), 500
-
-
-@app.route('/admin/train', methods=['POST'])
-@require_auth
-def trigger_training():
-    """
-    Admin endpoint to manually trigger embedding adaptor training
-    Useful for testing or after significant feedback collection
-    """
-    try:
-        num_epochs = request.get_json().get('num_epochs', 50)
-
-        # Run training in background
-        def train():
-            rag.train_embedding_adaptor(num_epochs=num_epochs)
-
-        thread = threading.Thread(target=train)
-        thread.start()
-
-        return jsonify({
-            'message': 'Training started in background',
-            'num_epochs': num_epochs
-        })
-    except Exception as e:
-        logger.error(f"Error triggering training: {str(e)}")
-        return jsonify({'error': 'Internal server error'}), 500
-
-
 @app.route('/admin/reindex', methods=['POST'])
 @require_auth
 def reindex_documents():
@@ -182,7 +141,7 @@ def reindex_documents():
     Useful when PDF content changes
     """
     try:
-        # Clear existing collection
+        # Clears existing collection
         rag.chroma_client.delete_collection(rag.collection_name)
         rag._initialize_collection()
         rag._load_and_index_documents()
