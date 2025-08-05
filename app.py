@@ -135,7 +135,7 @@ def submit_feedback():
                 logger.info(f"Retrieved question from query_info: {question[:50]}...")
 
             if not sources:
-                sources = query_info.get('sources', [])
+                sources = query_info.get('sources_used', [])
                 logger.info(f"Retrieved {len(sources)} sources from query_info")
 
         # Final validation
@@ -147,10 +147,11 @@ def submit_feedback():
             f"Storing feedback for query {query_id}: rating={rating}, question_length={len(question)}, sources_count={len(sources)}")
 
         # Store feedback with complete information
-        rag.store_feedback(query_id, question, rating, comment, sources)
+        feedback_id = rag.store_feedback(query_id, question, rating, comment, sources)
 
         # Also update the query_info with feedback
         feedback_data = {
+            'feedback_id': feedback_id,
             'rating': rating,
             'comment': comment,
             'timestamp': datetime.now().isoformat()
