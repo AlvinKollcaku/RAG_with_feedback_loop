@@ -332,10 +332,341 @@
       }
     ],
     "feedback": {
+      "feedback_id": "43b69d04-3b3b-4504-8d20-2f6ec9f3254f",
       "rating": 5,
       "comment": "Great answer. It solved my problem",
-      "timestamp": "2025-08-05T12:36:54.253320"
+      "timestamp": "2025-08-05T12:52:08.497917"
     },
-    "feedback_timestamp": "2025-08-05T12:36:54.266059"
+    "feedback_timestamp": "2025-08-05T12:52:08.523886"
+  },
+  "03d16a22-854e-404a-a173-32dd2cda6ce7": {
+    "timestamp": "2025-08-05T12:55:52.102345",
+    "question": "Are there tools to help find bugs in Python?",
+    "answer": "Yes, there are tools to help find bugs in Python. According to [Source 2], tools like pylint and pyflakes can do basic checking to help catch bugs sooner. Additionally, static type checkers such as mypy, pyre, and pytype can check type hints in Python source code.",
+    "confidence": 31.0,
+    "expanded_queries": [
+      "Are there tools to help find bugs in Python?",
+      "1. What are some common bug tracking tools for Python?",
+      "2. How can I debug Python code effectively?",
+      "3. Are there any Python libraries specifically designed for bug detection?",
+      "4. What are the best practices for finding and fixing bugs in Python?"
+    ],
+    "sources_used": [
+      {
+        "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+        "score": 0.31,
+        "cross_encoder_score": 0.001,
+        "metadata": {
+          "chunk_id": "215_0",
+          "page": 73,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.165962"
+        }
+      },
+      {
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "score": 0.2,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        }
+      },
+      {
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "score": 0.19,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "bf58b861-f3b0-4743-8bab-a50f56b3ce3c",
+      "rating": 5,
+      "comment": "Very helpful.",
+      "timestamp": "2025-08-05T13:09:15.464794"
+    },
+    "feedback_timestamp": "2025-08-05T13:09:15.488899"
+  },
+  "98f51c4e-c601-4c53-b738-592c8c301def": {
+    "timestamp": "2025-08-05T13:13:51.303249",
+    "question": "Are there tools to help find bugs or perform static analysis?",
+    "answer": "Based on the provided context, there is no specific mention of tools for finding bugs or performing static analysis. Additional information would be needed to provide an accurate answer to this question.",
+    "confidence": 30.1,
+    "expanded_queries": [
+      "Are there tools to help find bugs or perform static analysis?",
+      "1. What is static analysis?",
+      "2. How do bug tracking tools work?",
+      "3. Can static analysis tools detect security vulnerabilities?",
+      "4. What are some popular bug tracking tools?"
+    ],
+    "sources_used": [
+      {
+        "id": "d0d7669f-890a-44e6-aca5-fc950af422ad",
+        "score": 0.301,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_1",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      },
+      {
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "score": 0.293,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      },
+      {
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "score": 0.269,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "cd43ac2b-dd40-4f36-bebf-4cd4a1070e9d",
+      "rating": 1,
+      "comment": "",
+      "timestamp": "2025-08-05T13:14:05.598794"
+    },
+    "feedback_timestamp": "2025-08-05T13:14:05.654173"
+  },
+  "11a68c72-9f6d-4029-8a87-96bf3873e553": {
+    "timestamp": "2025-08-05T13:14:30.714498",
+    "question": "Are there tools to help find bugs or perform static analysis in Python?",
+    "answer": "Yes, there are tools available to help find bugs or perform static analysis in Python. According to [Source 1], tools like pylint and pyflakes can perform basic checking to help catch bugs sooner. Additionally, static type checkers such as mypy, pyre, and pytype can check type hints in Python source code.",
+    "confidence": 31.8,
+    "expanded_queries": [
+      "Are there tools to help find bugs or perform static analysis in Python?",
+      "1. What are some popular bug tracking tools for Python?",
+      "2. How can static analysis tools improve code quality in Python?",
+      "3. Are there any free tools available for bug detection in Python?",
+      "4. What are the benefits of using static analysis tools in Python development?"
+    ],
+    "sources_used": [
+      {
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "score": 0.318,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        }
+      },
+      {
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "score": 0.31,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        }
+      },
+      {
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "score": 0.299,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "d2995b40-5594-4c98-a18a-d0de60a43f7b",
+      "rating": 5,
+      "comment": "",
+      "timestamp": "2025-08-05T13:14:52.192182"
+    },
+    "feedback_timestamp": "2025-08-05T13:14:52.232454"
+  },
+  "bf2701fc-8fd9-4ee3-afe1-50fd65334a28": {
+    "timestamp": "2025-08-05T13:15:18.731610",
+    "question": "Are there tools to help find bugs or perform static analysis?",
+    "answer": "Based on the provided context, there are tools available in Python to help find bugs or perform static analysis. The `doctest` module can be used to find examples in docstrings for a module and run them, comparing the output with the expected output given in the docstring. Additionally, the `unittest` module is a testing framework modeled on Java and Smalltalk testing frameworks, which can also aid in bug detection and static analysis. These tools can be utilized to ensure the functionality of Python programs.",
+    "confidence": 28.1,
+    "expanded_queries": [
+      "Are there tools to help find bugs or perform static analysis?",
+      "1. What is static analysis?",
+      "2. How do bug tracking tools work?",
+      "3. Can static analysis tools detect security vulnerabilities?",
+      "4. What are some popular bug tracking tools?"
+    ],
+    "sources_used": [
+      {
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "score": 0.281,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      },
+      {
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "score": 0.264,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        }
+      },
+      {
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "score": 0.251,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "a41fecc3-4bd6-4156-9fe3-aa7468cf15b3",
+      "rating": 2,
+      "comment": "",
+      "timestamp": "2025-08-05T13:15:30.194068"
+    },
+    "feedback_timestamp": "2025-08-05T13:15:30.233613"
+  },
+  "bc89b652-ee01-4ea2-821f-865b3b4fa076": {
+    "timestamp": "2025-08-05T13:16:34.511144",
+    "question": "Are there tools to help find bugs or perform static analysis?",
+    "answer": "Based on the provided context, there are tools available in Python to help find bugs or perform static analysis. The `doctest` module can find examples in docstrings for a module and run them, comparing the output with the expected output given in the docstring. Additionally, the `unittest` module is a testing framework modeled on Java and Smalltalk testing frameworks. These tools can assist in identifying bugs and performing static analysis in Python programs. (Source 3)",
+    "confidence": 27.6,
+    "expanded_queries": [
+      "Are there tools to help find bugs or perform static analysis?",
+      "1. What is static analysis?",
+      "2. How do bug tracking tools work?",
+      "3. Can static analysis tools detect security vulnerabilities?",
+      "4. What are some popular bug tracking tools?"
+    ],
+    "sources_used": [
+      {
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "score": 0.276,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      },
+      {
+        "id": "d0d7669f-890a-44e6-aca5-fc950af422ad",
+        "score": 0.241,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_1",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      },
+      {
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "score": 0.241,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "2ffb43b6-d4ec-4b0c-9fff-6ac2901465b9",
+      "rating": 1,
+      "comment": "",
+      "timestamp": "2025-08-05T13:16:40.428622"
+    },
+    "feedback_timestamp": "2025-08-05T13:16:40.451416"
+  },
+  "b5ad2d4b-5a78-4d1c-a529-ccab208b34e5": {
+    "timestamp": "2025-08-05T13:19:18.451563",
+    "question": "Are there tools to help find bugs or perform static analysis?",
+    "answer": "Based on the provided context, there is no specific mention of tools for finding bugs or performing static analysis. Additional information would be needed to provide an accurate answer to this question.",
+    "confidence": 26.8,
+    "expanded_queries": [
+      "Are there tools to help find bugs or perform static analysis?",
+      "1. What is static analysis?",
+      "2. How do bug tracking tools work?",
+      "3. Can static analysis tools detect security vulnerabilities?",
+      "4. What are some popular bug tracking tools?"
+    ],
+    "sources_used": [
+      {
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "score": 0.268,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      },
+      {
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "score": 0.24,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        }
+      },
+      {
+        "id": "d0d7669f-890a-44e6-aca5-fc950af422ad",
+        "score": 0.221,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_1",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "96d391b9-2a2b-46a0-9f0a-75277c78784f",
+      "rating": 1,
+      "comment": "",
+      "timestamp": "2025-08-05T13:19:26.167187"
+    },
+    "feedback_timestamp": "2025-08-05T13:19:26.195530"
   }
 }

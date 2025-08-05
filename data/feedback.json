@@ -813,12 +813,322 @@
     ]
   },
   {
-    "feedback_id": "69560136-68b2-48ea-a5ee-8d2bcf9b7d19",
+    "feedback_id": "43b69d04-3b3b-4504-8d20-2f6ec9f3254f",
     "query_id": "b9805764-83fd-4e08-8372-8dc07f422991",
     "query": "What are some static type checkers to check type hints in Python?",
     "rating": 5,
     "comment": "Great answer. It solved my problem",
-    "timestamp": "2025-08-05T12:36:54.242199",
-    "sources": []
+    "timestamp": "2025-08-05T12:52:08.483738",
+    "sources": [
+      {
+        "id": "c56d972b-df25-4724-aa0f-b28a9037f061",
+        "score": 0.857,
+        "cross_encoder_score": 0.999,
+        "metadata": {
+          "chunk_id": "284_0",
+          "page": 94,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.357250"
+        }
+      },
+      {
+        "id": "6292df8c-9826-4cc8-aafa-eb9ff7e2957e",
+        "score": 0.852,
+        "cross_encoder_score": 0.995,
+        "metadata": {
+          "chunk_id": "365_0",
+          "page": 124,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.452202"
+        }
+      },
+      {
+        "id": "a8cabeda-7183-4ba6-9492-f094bd61d80b",
+        "score": 0.822,
+        "cross_encoder_score": 0.999,
+        "metadata": {
+          "chunk_id": "287_1",
+          "page": 95,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.357250"
+        }
+      }
+    ]
+  },
+  {
+    "feedback_id": "bf58b861-f3b0-4743-8bab-a50f56b3ce3c",
+    "query_id": "03d16a22-854e-404a-a173-32dd2cda6ce7",
+    "query": "Are there tools to help find bugs in Python?",
+    "rating": 5,
+    "comment": "Very helpful.",
+    "timestamp": "2025-08-05T12:56:25.457979",
+    "sources": [
+      {
+        "content": "thatfiletypeanopencommandthatrunstheinterpreter ( d : \\ program files \\ python \\ python. exe \" % 1 \" % * ). thisisenoughtomakescriptsexecutablefromthecommandpromptas \u2018 foo. py \u2019. ifyou \u2019 dratherbeable...",
+        "cross_encoder_score": 0.001,
+        "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+        "metadata": {
+          "chunk_id": "215_0",
+          "page": 73,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.165962"
+        },
+        "score": 0.31
+      },
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.2
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.19
+      }
+    ]
+  },
+  {
+    "feedback_id": "cd43ac2b-dd40-4f36-bebf-4cd4a1070e9d",
+    "query_id": "98f51c4e-c601-4c53-b738-592c8c301def",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 1,
+    "comment": "",
+    "timestamp": "2025-08-05T13:14:05.562661",
+    "sources": [
+      {
+        "content": "##f. meth ( ) makes it absolutely clear that an instance variable or method is used even if you don \u2019 t know the class definition by heart. in c + +, you can sort of tell by the lack of a local variab...",
+        "cross_encoder_score": 0,
+        "id": "d0d7669f-890a-44e6-aca5-fc950af422ad",
+        "metadata": {
+          "chunk_id": "139_1",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.301
+      },
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.293
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.269
+      }
+    ]
+  },
+  {
+    "feedback_id": "d2995b40-5594-4c98-a18a-d0de60a43f7b",
+    "query_id": "11a68c72-9f6d-4029-8a87-96bf3873e553",
+    "query": "Are there tools to help find bugs or perform static analysis in Python?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-05T13:14:52.167337",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.318
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.31
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.299
+      }
+    ]
+  },
+  {
+    "feedback_id": "a41fecc3-4bd6-4156-9fe3-aa7468cf15b3",
+    "query_id": "bf2701fc-8fd9-4ee3-afe1-50fd65334a28",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 2,
+    "comment": "",
+    "timestamp": "2025-08-05T13:15:30.168063",
+    "sources": [
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.281
+      },
+      {
+        "content": "4. 1. 6whydon \u2019 tmysignalhandlerswork? themostcommonproblemisthatthesignalhandlerisdeclaredwiththewrongargumentlist. itiscalledas handler ( signum, frame ) soitshouldbedeclaredwithtwoparameters : def ...",
+        "cross_encoder_score": 0,
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.264
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.251
+      }
+    ]
+  },
+  {
+    "feedback_id": "2ffb43b6-d4ec-4b0c-9fff-6ac2901465b9",
+    "query_id": "bc89b652-ee01-4ea2-821f-865b3b4fa076",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 1,
+    "comment": "",
+    "timestamp": "2025-08-05T13:16:40.380685",
+    "sources": [
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.276
+      },
+      {
+        "content": "##f. meth ( ) makes it absolutely clear that an instance variable or method is used even if you don \u2019 t know the class definition by heart. in c + +, you can sort of tell by the lack of a local variab...",
+        "cross_encoder_score": 0,
+        "id": "d0d7669f-890a-44e6-aca5-fc950af422ad",
+        "metadata": {
+          "chunk_id": "139_1",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.241
+      },
+      {
+        "content": "4. 1. 6whydon \u2019 tmysignalhandlerswork? themostcommonproblemisthatthesignalhandlerisdeclaredwiththewrongargumentlist. itiscalledas handler ( signum, frame ) soitshouldbedeclaredwithtwoparameters : def ...",
+        "cross_encoder_score": 0,
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.241
+      }
+    ]
+  },
+  {
+    "feedback_id": "96d391b9-2a2b-46a0-9f0a-75277c78784f",
+    "query_id": "b5ad2d4b-5a78-4d1c-a529-ccab208b34e5",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 1,
+    "comment": "",
+    "timestamp": "2025-08-05T13:19:26.074666",
+    "sources": [
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.268
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.24
+      },
+      {
+        "content": "##f. meth ( ) makes it absolutely clear that an instance variable or method is used even if you don \u2019 t know the class definition by heart. in c + +, you can sort of tell by the lack of a local variab...",
+        "cross_encoder_score": 0,
+        "id": "d0d7669f-890a-44e6-aca5-fc950af422ad",
+        "metadata": {
+          "chunk_id": "139_1",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.221
+      }
+    ]
   }
 ]
