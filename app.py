@@ -107,12 +107,12 @@ def submit_feedback():
     try:
         data = request.get_json()
         query_id = data.get('query_id')
-        question = data.get('question')
         rating = data.get('rating')
         comment = data.get('comment', '')
-        sources = data.get('sources', [])  # The sources used for the response
 
-        print("SOURCES LENGHT FROM APP: ", len(sources))
+        # Get question and sources from request data or fallback to query_info
+        question = data.get('question')
+        sources = data.get('sources', [])
 
         if not query_id or rating is None:
             return jsonify({'error': 'query_id and rating are required'}), 400
@@ -120,17 +120,63 @@ def submit_feedback():
         if not isinstance(rating, int) or not 1 <= rating <= 5:
             return jsonify({'error': 'Rating must be an integer between 1 and 5'}), 400
 
-        logger.info(f"Storing feedback for query {query_id}: rating={rating}")
+        # If question or sources are missing, retrieve from query_info
+        if not question or not sources:
+            logger.info(f"Missing question or sources in request, retrieving from query_info for {query_id}")
+            query_info = rag.get_query_info(query_id)
 
+            if not query_info:
+                logger.warning(f"No query info found for query_id: {query_id}")
+                return jsonify({'error': f'Query information not found for query_id: {query_id}'}), 400
+
+            # Use fallback values if not provided in request
+            if not question:
+                question = query_info.get('question')
+                logger.info(f"Retrieved question from query_info: {question[:50]}...")
+
+            if not sources:
+                sources = query_info.get('sources', [])
+                logger.info(f"Retrieved {len(sources)} sources from query_info")
+
+        # Final validation
+        if not question:
+            return jsonify({'error': 'Question not found in request or query info'}), 400
+
+        print("SOURCES LENGTH FROM APP: ", len(sources))
+        logger.info(
+            f"Storing feedback for query {query_id}: rating={rating}, question_length={len(question)}, sources_count={len(sources)}")
+
+        # Store feedback with complete information
         rag.store_feedback(query_id, question, rating, comment, sources)
+
+        # Also update the query_info with feedback
+        feedback_data = {
+            'rating': rating,
+            'comment': comment,
+            'timestamp': datetime.now().isoformat()
+        }
+        rag.update_query_feedback(query_id, feedback_data)
 
         return jsonify({
             'message': 'Feedback stored successfully',
-            'trigger_training': len(rag.feedback_data) % 50 == 0
+            'trigger_training': len(rag.feedback_data) % 10 == 0,
+            'sources_used': len(sources),
+            'question_retrieved': question is not None
         })
 
     except Exception as e:
         logger.error(f"Error storing feedback: {str(e)}")
+        return jsonify({'error': 'Internal server error'}), 500
+
+@app.route('/stats', methods=['GET'])
+@require_auth
+def get_stats():
+    """Get feedback statistics"""
+    try:
+        stats = rag.get_feedback_stats()
+        return jsonify(stats)
+    except Exception as e:
+        logger.error(f"Error getting stats: {str(e)}")
         return jsonify({'error': 'Internal server error'}), 500
 
 @app.route('/admin/reindex', methods=['POST'])
@@ -167,13 +213,13 @@ def health_check():
                 'feedback_count': len(rag.feedback_data),
                 'adaptor_trained': os.path.exists(rag.adaptor_path)
             },
-            'version': '2.0'
+            'version': 2.0
         }
         return jsonify(status)
     except Exception as e:
         return jsonify({
             'status': 'unhealthy',
-            'error': str(e)
+            'error': str(e),
         }), 503
 
 

@@ -1,0 +1,341 @@
+{
+  "1a16c306-aa7e-41b7-9c9f-af7e632d7111": {
+    "timestamp": "2025-08-05T11:31:38.945140",
+    "question": "Are there tools to help find bugs or perform static analysis?",
+    "answer": "Based on the provided context, there are tools available in Python to help find bugs or perform static analysis. The `doctest` module can be used to find examples in docstrings for a module and run them, comparing the output with the expected output given in the docstring. Additionally, the `unittest` module is a more advanced testing framework modeled on Java and Smalltalk testing frameworks. These tools can aid in bug detection and static analysis in Python programs. (Source 2)",
+    "confidence": 32.5,
+    "expanded_queries": [
+      "Are there tools to help find bugs or perform static analysis?",
+      "1. What is static analysis?",
+      "2. How do bug tracking tools work?",
+      "3. Can static analysis tools detect security vulnerabilities?",
+      "4. What are some popular bug tracking tools?"
+    ],
+    "sources_used": [
+      {
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "score": 0.325,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        }
+      },
+      {
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "score": 0.303,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        }
+      },
+      {
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "score": 0.302,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "371fe70b-6866-4e78-b84d-e86f996eb12a",
+      "query_id": "1a16c306-aa7e-41b7-9c9f-af7e632d7111",
+      "query": "Are there tools to help find bugs or perform static analysis?",
+      "rating": 4,
+      "comment": "Not bad but I wanted it more python specific",
+      "timestamp": "2025-08-05T11:51:31.498613",
+      "sources": [
+        {
+          "content": "arerareoreasilyrecognizable ) – butinpython, therearenolocalvariabledeclarations, soyou ’ dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+          "cross_encoder_score": 0.0,
+          "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+          "metadata": {
+            "chunk_id": "140_0",
+            "page": 47,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:58.988583"
+          },
+          "score": 0.325
+        },
+        {
+          "content": "4. 1. 6whydon ’ tmysignalhandlerswork? themostcommonproblemisthatthesignalhandlerisdeclaredwiththewrongargumentlist. itiscalledas handler ( signum, frame ) soitshouldbedeclaredwithtwoparameters : def ...",
+          "cross_encoder_score": 0.0,
+          "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+          "metadata": {
+            "chunk_id": "175_0",
+            "page": 59,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:59.070313"
+          },
+          "score": 0.303
+        },
+        {
+          "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+          "cross_encoder_score": 0.0,
+          "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+          "metadata": {
+            "chunk_id": "139_0",
+            "page": 47,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:58.986579"
+          },
+          "score": 0.302
+        }
+      ]
+    },
+    "feedback_timestamp": "2025-08-05T11:51:31.511624"
+  },
+  "e59151d6-5007-4f87-bc08-8bff8f858900": {
+    "timestamp": "2025-08-05T11:54:44.409243",
+    "question": "Are there tools to help find bugs or perform static analysis in Python?",
+    "answer": "Yes, there are tools that can help with static analysis in Python. Type hints can be used for static type checking, aiding with code completion and refactoring. Tools like `typing.get_type_hints()` can access type hints for global variables, class attributes, and functions. For more information on this functionality, you can refer to the `typing` module and PEP 484. (Source 1)",
+    "confidence": 64.6,
+    "expanded_queries": [
+      "Are there tools to help find bugs or perform static analysis in Python?",
+      "1. What are some popular bug tracking tools for Python?",
+      "2. How can static analysis tools improve code quality in Python?",
+      "3. Are there any free tools available for bug detection in Python?",
+      "4. What are the benefits of using static analysis tools in Python development?"
+    ],
+    "sources_used": [
+      {
+        "id": "a8cabeda-7183-4ba6-9492-f094bd61d80b",
+        "score": 0.646,
+        "cross_encoder_score": 0.696,
+        "metadata": {
+          "chunk_id": "287_1",
+          "page": 95,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.357250"
+        }
+      },
+      {
+        "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+        "score": 0.336,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "42_1",
+          "page": 11,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.706383"
+        }
+      },
+      {
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "score": 0.29,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "b7f9c96d-9aa1-48f2-89c6-7a8aa818636d",
+      "query_id": "e59151d6-5007-4f87-bc08-8bff8f858900",
+      "query": "Are there tools to help find bugs or perform static analysis in Python?",
+      "rating": 2,
+      "comment": "It focused too much on static analysis",
+      "timestamp": "2025-08-05T11:57:19.781895",
+      "sources": [
+        {
+          "content": "not enforced by python but they are useful to static type checkers. they can alsoaidideswithcodecompletionandrefactoring. type hints of global variables, class attributes, and functions, but not local...",
+          "cross_encoder_score": 0.696,
+          "id": "a8cabeda-7183-4ba6-9492-f094bd61d80b",
+          "metadata": {
+            "chunk_id": "287_1",
+            "page": 95,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:59.357250"
+          },
+          "score": 0.646
+        },
+        {
+          "content": "python ’ s flying circus ”, a bbc comedy series from the 1970s. van rossum thought he needed a name that was short, unique, andslightlymysterious, sohedecidedtocallthelanguagepython. 1. 1. 17doihaveto...",
+          "cross_encoder_score": 0.0,
+          "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+          "metadata": {
+            "chunk_id": "42_1",
+            "page": 11,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:58.706383"
+          },
+          "score": 0.336
+        },
+        {
+          "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+          "cross_encoder_score": 0.0,
+          "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+          "metadata": {
+            "chunk_id": "139_0",
+            "page": 47,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:58.986579"
+          },
+          "score": 0.29
+        }
+      ]
+    },
+    "feedback_timestamp": "2025-08-05T11:57:19.818839"
+  },
+  "57ec8e0c-bee6-4a58-b4df-859e375bd768": {
+    "timestamp": "2025-08-05T12:02:11.442776",
+    "question": "How to find bugs in Python?",
+    "answer": "Unfortunately, the provided context does not contain information on how to specifically find bugs in Python. For detailed information on debugging Python code, it is recommended to refer to official Python documentation, online tutorials, or debugging tools such as pdb (Python Debugger) or IDEs with built-in debugging capabilities.",
+    "confidence": 33.9,
+    "expanded_queries": [
+      "How to find bugs in Python?",
+      "1. What tools can help with debugging Python code?",
+      "2. Are there common techniques for troubleshooting Python errors?",
+      "3. How can I prevent bugs in my Python code?",
+      "4. What are some common types of bugs in Python?"
+    ],
+    "sources_used": [
+      {
+        "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+        "score": 0.339,
+        "cross_encoder_score": 0.005,
+        "metadata": {
+          "chunk_id": "215_0",
+          "page": 73,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.165962"
+        }
+      },
+      {
+        "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+        "score": 0.324,
+        "cross_encoder_score": 0.0,
+        "metadata": {
+          "chunk_id": "42_1",
+          "page": 11,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.706383"
+        }
+      },
+      {
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "score": 0.279,
+        "cross_encoder_score": 0.007,
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        }
+      }
+    ],
+    "feedback": {
+      "feedback_id": "c944d6fb-c2eb-48ec-95f6-970a75cfe6b3",
+      "query_id": "57ec8e0c-bee6-4a58-b4df-859e375bd768",
+      "query": "How to find bugs in Python?",
+      "rating": 1,
+      "comment": "Did not help",
+      "timestamp": "2025-08-05T12:03:59.678143",
+      "sources": [
+        {
+          "content": "thatfiletypeanopencommandthatrunstheinterpreter ( d : \\ program files \\ python \\ python. exe \" % 1 \" % * ). thisisenoughtomakescriptsexecutablefromthecommandpromptas ‘ foo. py ’. ifyou ’ dratherbeable...",
+          "cross_encoder_score": 0.005,
+          "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+          "metadata": {
+            "chunk_id": "215_0",
+            "page": 73,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:59.165962"
+          },
+          "score": 0.339
+        },
+        {
+          "content": "python ’ s flying circus ”, a bbc comedy series from the 1970s. van rossum thought he needed a name that was short, unique, andslightlymysterious, sohedecidedtocallthelanguagepython. 1. 1. 17doihaveto...",
+          "cross_encoder_score": 0.0,
+          "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+          "metadata": {
+            "chunk_id": "42_1",
+            "page": 11,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:58.706383"
+          },
+          "score": 0.324
+        },
+        {
+          "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+          "cross_encoder_score": 0.007,
+          "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+          "metadata": {
+            "chunk_id": "31_0",
+            "page": 8,
+            "source": "./data/faqs.pdf",
+            "timestamp": "2025-08-03T03:33:58.674435"
+          },
+          "score": 0.279
+        }
+      ]
+    },
+    "feedback_timestamp": "2025-08-05T12:03:59.680661"
+  },
+  "b9805764-83fd-4e08-8372-8dc07f422991": {
+    "timestamp": "2025-08-05T12:30:13.635296",
+    "question": "What are some static type checkers to check type hints in Python?",
+    "answer": "Some static type checkers to check type hints in Python include mypy, Pyright, and Pyre. These tools analyze Python code to detect issues related to incorrect types based on the type hints provided in the code. (Source 1)",
+    "confidence": 85.7,
+    "expanded_queries": [
+      "What are some static type checkers to check type hints in Python?",
+      "1. How do static type checkers help with type hints in Python?",
+      "2. Are there any popular static type checkers for Python besides mypy?",
+      "3. Can static type checkers be used with other programming languages besides Python?",
+      "4. What are the benefits of using static type checkers in Python?"
+    ],
+    "sources_used": [
+      {
+        "id": "c56d972b-df25-4724-aa0f-b28a9037f061",
+        "score": 0.857,
+        "cross_encoder_score": 0.999,
+        "metadata": {
+          "chunk_id": "284_0",
+          "page": 94,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.357250"
+        }
+      },
+      {
+        "id": "6292df8c-9826-4cc8-aafa-eb9ff7e2957e",
+        "score": 0.852,
+        "cross_encoder_score": 0.995,
+        "metadata": {
+          "chunk_id": "365_0",
+          "page": 124,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.452202"
+        }
+      },
+      {
+        "id": "a8cabeda-7183-4ba6-9492-f094bd61d80b",
+        "score": 0.822,
+        "cross_encoder_score": 0.999,
+        "metadata": {
+          "chunk_id": "287_1",
+          "page": 95,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.357250"
+        }
+      }
+    ],
+    "feedback": {
+      "rating": 5,
+      "comment": "Great answer. It solved my problem",
+      "timestamp": "2025-08-05T12:36:54.253320"
+    },
+    "feedback_timestamp": "2025-08-05T12:36:54.266059"
+  }
+}
