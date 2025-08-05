@@ -628,5 +628,197 @@
         "score": 0.841
       }
     ]
+  },
+  {
+    "query_id": "85b2e2f9-102d-4fff-a503-d794d4f81f38",
+    "query": "What is python?",
+    "rating": 5,
+    "comment": "Good answer",
+    "timestamp": "2025-08-05T02:38:06.661713",
+    "sources": [
+      {
+        "content": "chapter eight \u201c whyispythoninstalledonmycomputer? \u201d faq 8. 1whatispython? python is a programming language. it \u2019 s used for many different applications. it \u2019 s used in some high schools and collegesas...",
+        "cross_encoder_score": 0.997,
+        "id": "285279fd-9a8a-4337-a8b3-af488e17683e",
+        "metadata": {
+          "chunk_id": "226_0",
+          "page": 78,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.198013"
+        },
+        "score": 0.896
+      },
+      {
+        "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+        "cross_encoder_score": 1.0,
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        },
+        "score": 0.872
+      },
+      {
+        "content": "python \u2019 s flying circus \u201d, a bbc comedy series from the 1970s. van rossum thought he needed a name that was short, unique, andslightlymysterious, sohedecidedtocallthelanguagepython. 1. 1. 17doihaveto...",
+        "cross_encoder_score": 0.818,
+        "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+        "metadata": {
+          "chunk_id": "42_1",
+          "page": 11,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.706383"
+        },
+        "score": 0.841
+      }
+    ]
+  },
+  {
+    "feedback_id": "371fe70b-6866-4e78-b84d-e86f996eb12a",
+    "query_id": "1a16c306-aa7e-41b7-9c9f-af7e632d7111",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 4,
+    "comment": "Not bad but I wanted it more python specific",
+    "timestamp": "2025-08-05T11:51:31.498613",
+    "sources": [
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0.0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.325
+      },
+      {
+        "content": "4. 1. 6whydon \u2019 tmysignalhandlerswork? themostcommonproblemisthatthesignalhandlerisdeclaredwiththewrongargumentlist. itiscalledas handler ( signum, frame ) soitshouldbedeclaredwithtwoparameters : def ...",
+        "cross_encoder_score": 0.0,
+        "id": "782879cf-0bc3-4893-b8f4-8d8b0c283d3a",
+        "metadata": {
+          "chunk_id": "175_0",
+          "page": 59,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.303
+      },
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0.0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.302
+      }
+    ]
+  },
+  {
+    "feedback_id": "b7f9c96d-9aa1-48f2-89c6-7a8aa818636d",
+    "query_id": "e59151d6-5007-4f87-bc08-8bff8f858900",
+    "query": "Are there tools to help find bugs or perform static analysis in Python?",
+    "rating": 2,
+    "comment": "It focused too much on static analysis",
+    "timestamp": "2025-08-05T11:57:19.781895",
+    "sources": [
+      {
+        "content": "not enforced by python but they are useful to static type checkers. they can alsoaidideswithcodecompletionandrefactoring. type hints of global variables, class attributes, and functions, but not local...",
+        "cross_encoder_score": 0.696,
+        "id": "a8cabeda-7183-4ba6-9492-f094bd61d80b",
+        "metadata": {
+          "chunk_id": "287_1",
+          "page": 95,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.357250"
+        },
+        "score": 0.646
+      },
+      {
+        "content": "python \u2019 s flying circus \u201d, a bbc comedy series from the 1970s. van rossum thought he needed a name that was short, unique, andslightlymysterious, sohedecidedtocallthelanguagepython. 1. 1. 17doihaveto...",
+        "cross_encoder_score": 0.0,
+        "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+        "metadata": {
+          "chunk_id": "42_1",
+          "page": 11,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.706383"
+        },
+        "score": 0.336
+      },
+      {
+        "content": "oneisperformance : knowingthatastringisimmutablemeanswecanallocatespaceforitatcreationtime, andthe storagerequirementsarefixedandunchanging. thisisalsooneofthereasonsforthedistinctionbetweentuplesand ...",
+        "cross_encoder_score": 0.0,
+        "id": "957395b2-3a74-4a3f-8ad6-33cbb7254866",
+        "metadata": {
+          "chunk_id": "139_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.986579"
+        },
+        "score": 0.29
+      }
+    ]
+  },
+  {
+    "feedback_id": "c944d6fb-c2eb-48ec-95f6-970a75cfe6b3",
+    "query_id": "57ec8e0c-bee6-4a58-b4df-859e375bd768",
+    "query": "How to find bugs in Python?",
+    "rating": 1,
+    "comment": "Did not help",
+    "timestamp": "2025-08-05T12:03:59.678143",
+    "sources": [
+      {
+        "content": "thatfiletypeanopencommandthatrunstheinterpreter ( d : \\ program files \\ python \\ python. exe \" % 1 \" % * ). thisisenoughtomakescriptsexecutablefromthecommandpromptas \u2018 foo. py \u2019. ifyou \u2019 dratherbeable...",
+        "cross_encoder_score": 0.005,
+        "id": "35d16903-e126-47e3-ab75-f85e1f7fb207",
+        "metadata": {
+          "chunk_id": "215_0",
+          "page": 73,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.165962"
+        },
+        "score": 0.339
+      },
+      {
+        "content": "python \u2019 s flying circus \u201d, a bbc comedy series from the 1970s. van rossum thought he needed a name that was short, unique, andslightlymysterious, sohedecidedtocallthelanguagepython. 1. 1. 17doihaveto...",
+        "cross_encoder_score": 0.0,
+        "id": "4349dd0d-921f-4f7e-aa3c-10c86cf7001b",
+        "metadata": {
+          "chunk_id": "42_1",
+          "page": 11,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.706383"
+        },
+        "score": 0.324
+      },
+      {
+        "content": "chapter one generalpythonfaq 1. 1generalinformation 1. 1. 1whatispython? python is an interpreted, interactive, object - oriented programming language. it incorporates modules, exceptions, dynamictypi...",
+        "cross_encoder_score": 0.007,
+        "id": "91d66414-f74f-42ac-a445-8adf6dc7481b",
+        "metadata": {
+          "chunk_id": "31_0",
+          "page": 8,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.674435"
+        },
+        "score": 0.279
+      }
+    ]
+  },
+  {
+    "feedback_id": "69560136-68b2-48ea-a5ee-8d2bcf9b7d19",
+    "query_id": "b9805764-83fd-4e08-8372-8dc07f422991",
+    "query": "What are some static type checkers to check type hints in Python?",
+    "rating": 5,
+    "comment": "Great answer. It solved my problem",
+    "timestamp": "2025-08-05T12:36:54.242199",
+    "sources": []
   }
 ]
