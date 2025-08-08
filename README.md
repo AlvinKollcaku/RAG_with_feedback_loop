@@ -4,8 +4,7 @@
 
 This project implements an advanced Retrieval-Augmented Generation (RAG) system with an integrated feedback loop mechanism. The system is designed to continuously improve its performance through user feedback and incorporates several sophisticated techniques to enhance retrieval quality and answer generation.
 
-<!-- Replace YOUR_VIDEO_ID with your actual YouTube video ID -->
-[![RAG System Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=F6DEnkGSRow) 
+[![RAG System Demo](https://img.youtube.com/vi/F6DEnkGSRow/maxresdefault.jpg)](https://www.youtube.com/watch?v=F6DEnkGSRow) 
 
 *Click the thumbnail above to watch the project demonstration*
 
