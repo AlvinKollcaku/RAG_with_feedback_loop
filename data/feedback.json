@@ -1130,5 +1130,419 @@
         "score": 0.221
       }
     ]
+  },
+  {
+    "feedback_id": "05fddd8e-55fc-4d63-8de2-6741372c6582",
+    "query_id": "156bfbdf-a2a6-4e85-8502-9a680e153b57",
+    "query": "Are there tools for debugging or static analysis in Python?",
+    "rating": 5,
+    "comment": "Really good answer. Helped",
+    "timestamp": "2025-08-07T15:02:59.937372",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0.002,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.345
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.328
+      },
+      {
+        "content": "arerareoreasilyrecognizable ) \u2013 butinpython, therearenolocalvariabledeclarations, soyou \u2019 dhavetolookupthe classdefinitiontobesure. somec + + andjavacodingstandardscallforinstanceattributestohavean m ...",
+        "cross_encoder_score": 0,
+        "id": "f8dd508e-a5b4-46ca-af84-9ccb9076e550",
+        "metadata": {
+          "chunk_id": "140_0",
+          "page": 47,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.988583"
+        },
+        "score": 0.293
+      }
+    ]
+  },
+  {
+    "feedback_id": "c77344e4-6749-4161-bf2a-4f62071f7167",
+    "query_id": "fcc6c35d-409a-4e26-b24d-c71ee66612af",
+    "query": "Are there tools for debugging and static analysis in Python?",
+    "rating": 5,
+    "comment": "Very good answer. It helped a lot",
+    "timestamp": "2025-08-07T15:35:40.360022",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0.002,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.346
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.329
+      },
+      {
+        "content": "3 ) moduleswrittenincandlinkedwiththeinterpreter ; togetalistofthese, type : import sys print ( sys. builtin _ module _ names ) 4. 1. 3howdoimakeapythonscriptexecutableonunix? youneedtodotwothings : t...",
+        "cross_encoder_score": 0,
+        "id": "2d0626f2-b56d-4c85-8fc0-ccbe215e2e56",
+        "metadata": {
+          "chunk_id": "172_0",
+          "page": 58,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.327
+      }
+    ]
+  },
+  {
+    "feedback_id": "f54ed0e2-933c-43bf-96fd-d9430da609c6",
+    "query_id": "2b12f180-95b3-478e-b779-4ba60c9d4cdb",
+    "query": "Are there tools for debugging or static analysis in Python?",
+    "rating": 5,
+    "comment": "Great answer.",
+    "timestamp": "2025-08-08T01:33:49.874988",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0.002,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.347
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.33
+      },
+      {
+        "content": "3 ) moduleswrittenincandlinkedwiththeinterpreter ; togetalistofthese, type : import sys print ( sys. builtin _ module _ names ) 4. 1. 3howdoimakeapythonscriptexecutableonunix? youneedtodotwothings : t...",
+        "cross_encoder_score": 0,
+        "id": "2d0626f2-b56d-4c85-8fc0-ccbe215e2e56",
+        "metadata": {
+          "chunk_id": "172_0",
+          "page": 58,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:59.070313"
+        },
+        "score": 0.293
+      }
+    ]
+  },
+  {
+    "feedback_id": "a0d1693f-7e5e-41f6-92f4-98535c34f277",
+    "query_id": "ddeb0600-555d-4ede-84c9-f3abfb2187f2",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 5,
+    "comment": "Greatt",
+    "timestamp": "2025-08-08T01:46:31.277244",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.26
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.239
+      },
+      {
+        "content": ".............. 66 6. 3 whydoespythonsometimestakesolongtostart?.......................... 66 6. 4 howdoimakeanexecutablefromapythonscript?......................... 66 6. 5 isa *. pydfilethesameasadll?...",
+        "cross_encoder_score": 0,
+        "id": "04235c5d-5688-4f79-be86-5b1958ce9428",
+        "metadata": {
+          "chunk_id": "23_1",
+          "page": 5,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.650344"
+        },
+        "score": 0.145
+      }
+    ]
+  },
+  {
+    "feedback_id": "0d06a33f-13c1-41c8-a427-026a81daa07c",
+    "query_id": "57c6c186-4714-4419-807a-a25d3839e7f5",
+    "query": "Are there tools for debugging or static analysis?",
+    "rating": 5,
+    "comment": "Reallly good.",
+    "timestamp": "2025-08-08T01:47:07.238801",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.314
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.294
+      },
+      {
+        "content": ".............. 66 6. 3 whydoespythonsometimestakesolongtostart?.......................... 66 6. 4 howdoimakeanexecutablefromapythonscript?......................... 66 6. 5 isa *. pydfilethesameasadll?...",
+        "cross_encoder_score": 0,
+        "id": "04235c5d-5688-4f79-be86-5b1958ce9428",
+        "metadata": {
+          "chunk_id": "23_1",
+          "page": 5,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.650344"
+        },
+        "score": 0.256
+      }
+    ]
+  },
+  {
+    "feedback_id": "34627f07-5585-43a8-a729-10c5a3f93c32",
+    "query_id": "33fc5a17-b192-4ed5-b87e-2bd5982eafb4",
+    "query": "Are there tools to help find bugs and for static checking?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-08T02:17:43.955604",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.319
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.306
+      },
+      {
+        "content": ".............. 66 6. 3 whydoespythonsometimestakesolongtostart?.......................... 66 6. 4 howdoimakeanexecutablefromapythonscript?......................... 66 6. 5 isa *. pydfilethesameasadll?...",
+        "cross_encoder_score": 0,
+        "id": "04235c5d-5688-4f79-be86-5b1958ce9428",
+        "metadata": {
+          "chunk_id": "23_1",
+          "page": 5,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.650344"
+        },
+        "score": 0.277
+      }
+    ]
+  },
+  {
+    "feedback_id": "579f2804-bcd3-410e-90f0-4964efe44425",
+    "query_id": "754722ec-52c2-4bad-b036-b5185ff2374d",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 5,
+    "comment": "Great answer. Really helped",
+    "timestamp": "2025-08-08T02:22:26.233998",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.309
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.297
+      },
+      {
+        "content": ".............. 66 6. 3 whydoespythonsometimestakesolongtostart?.......................... 66 6. 4 howdoimakeanexecutablefromapythonscript?......................... 66 6. 5 isa *. pydfilethesameasadll?...",
+        "cross_encoder_score": 0,
+        "id": "04235c5d-5688-4f79-be86-5b1958ce9428",
+        "metadata": {
+          "chunk_id": "23_1",
+          "page": 5,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.650344"
+        },
+        "score": 0.269
+      }
+    ]
+  },
+  {
+    "feedback_id": "295cd3e3-3058-4e92-b2df-1b813e715008",
+    "query_id": "0636070c-90ff-47be-a687-4575840849e8",
+    "query": "Are there tools for debugging or static analysis?",
+    "rating": 5,
+    "comment": "",
+    "timestamp": "2025-08-08T02:22:55.524317",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.352
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.342
+      },
+      {
+        "content": ".............. 66 6. 3 whydoespythonsometimestakesolongtostart?.......................... 66 6. 4 howdoimakeanexecutablefromapythonscript?......................... 66 6. 5 isa *. pydfilethesameasadll?...",
+        "cross_encoder_score": 0,
+        "id": "04235c5d-5688-4f79-be86-5b1958ce9428",
+        "metadata": {
+          "chunk_id": "23_1",
+          "page": 5,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.650344"
+        },
+        "score": 0.313
+      }
+    ]
+  },
+  {
+    "feedback_id": "2f8b6115-0f6d-43ac-8262-c777f022b60f",
+    "query_id": "0d9690c0-6721-4cf6-ba80-003110444154",
+    "query": "Are there tools to help find bugs or perform static analysis?",
+    "rating": 5,
+    "comment": "Reallyy good, helped a lot.",
+    "timestamp": "2025-08-08T02:30:43.766471",
+    "sources": [
+      {
+        "content": "ericisanidebuiltonpyqtandthescintillaeditingcomponent. trepan3kisagdb - likedebugger. visualstudiocode isanidewithdebuggingtoolsthatintegrateswithversion - controlsoftware. thereareanumberofcommercial...",
+        "cross_encoder_score": 0,
+        "id": "627c3cdb-a128-4de0-a459-87c8b6ff4ec4",
+        "metadata": {
+          "chunk_id": "52_0",
+          "page": 14,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.737563"
+        },
+        "score": 0.309
+      },
+      {
+        "content": "........... 5 1. 2. 6 ispythonagoodlanguageforbeginningprogrammers?.................. 5 2 programmingfaq 7 2. 1 generalquestions.......................................... 7 2. 1. 1 isthereasourcecodel...",
+        "cross_encoder_score": 0,
+        "id": "055ed1ac-c016-4cd6-8812-963176247b00",
+        "metadata": {
+          "chunk_id": "3_1",
+          "page": 2,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.579081"
+        },
+        "score": 0.297
+      },
+      {
+        "content": ".............. 66 6. 3 whydoespythonsometimestakesolongtostart?.......................... 66 6. 4 howdoimakeanexecutablefromapythonscript?......................... 66 6. 5 isa *. pydfilethesameasadll?...",
+        "cross_encoder_score": 0,
+        "id": "04235c5d-5688-4f79-be86-5b1958ce9428",
+        "metadata": {
+          "chunk_id": "23_1",
+          "page": 5,
+          "source": "./data/faqs.pdf",
+          "timestamp": "2025-08-03T03:33:58.650344"
+        },
+        "score": 0.269
+      }
+    ]
   }
 ]
